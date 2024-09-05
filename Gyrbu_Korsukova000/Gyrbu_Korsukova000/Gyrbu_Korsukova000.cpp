@@ -3,9 +3,17 @@
 
 #include <iostream>
 
-int main(void)
+int main()
 {
     std::cout << "Hello World!\n";
+    int x;
+    std::cin >> x;
+    if (x != 0)
+    {
+        std::cout << 100 / x;
+    }
+
+    return 0;
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
@@ -18,3 +26,4 @@ int main(void)
 //   4. Use the Error List window to view errors
 //   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
 //   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+
